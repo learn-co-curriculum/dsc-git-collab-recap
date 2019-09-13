@@ -48,7 +48,7 @@ Here, you might notice additional arguments that you can begin to use, such as `
 
 So for example, you could combine this with the `m` option as `git commit -am "your commit message"`. (Indeed this is a useful shortcut; by doing this you can bypass the `git add` command in your workflow in updating files being tracked by git.)
 
-At some point, you will also run into some trouble with git and have merge conflicts or other idiosyncracies between versions of your code. You have seen how git annotates merge conflicts, and can also use git stash to temporarily store changes.
+At some point, you will also run into some trouble with git and have merge conflicts or other idiosyncrasies between versions of your code. You have seen how git annotates merge conflicts, and can also use git stash to temporarily store changes.
 
 ## Summary
 
