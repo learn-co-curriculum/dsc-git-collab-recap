@@ -3,24 +3,21 @@
 
 ## Introduction
 
-In this section you took a look at how git is used for collaboration as part of a development team. This started by practicing navigating directories using the command line and continued by further investigating git commands. You practiced creating and maintaining git repositories including adding, committing and pushing changes. You saw how to make multiple branches and then merge changes back into the master branch. You also saw how to navigate merge conflicts when the same line of the same file has been edited in both branches trying to be merged. Be sure to continue to head back to the PEP8 and git documentation for clarification, review and learning more commands and arguments or style suggestions. 
+In this section you took a look at how git is used for collaboration as part of a development team. This started by practicing navigating directories using the command line and continued by further investigating git commands. You practiced creating and maintaining git repositories including adding, committing and pushing changes. You saw how to make multiple branches and then merge changes back into the master branch. You also saw how to navigate merge conflicts when the same line of the same file has been edited in both branches trying to be merged. Make sure you continue to head back to the PEP8 and git documentation for clarification, review and learn more commands and arguments or style suggestions. 
 
-On top of all that, you then did a data analysis project using word frequency! Nice work! To wrap it all up, here's a review of some concepts and some tips for how to continue to pull up documentation and find help on the fly!
+After that, you did a data analysis project using word frequency! Nice work! To wrap it all up, here's a review of some concepts and some tips for how to continue to pull up documentation and find help on the fly!
 
 ## Objectives
 
-* Understand the purpose of git
-* Review the `cd`, `ls`, `pwd`, `mkdir` and `nano` commands
-* Be able to retrieve git documentation
-* Interpret and implement git documentation
+* Review the `cd`, `ls`, `pwd`, `mkdir`, and `nano` commands 
+* Be able to retrieve git documentation 
 * Review `git add` command arguments 
-* Revieiw `git stash`
-* Review git merge conflicts
+* Revieiw `git stash` 
 
 
 ## Bash and the Command Line
 
-Recall some of our primary tools for navigating the command line: `cd`, `ls`, `pwd`, `mkdir` and `nano`. You can use `cd ..` to move up a directory level and `cd ~/Documents` for folders starting at the user's home directory. You can use `ls -a` to view hidden files and `ls -la` for a long listing of all files. (Again the `l` argument is for long form and the `a` in both cases for all files, including those beginning with `.` indicating that they are hidden.) You can also make directories with the `mkdir` command. You saw how to use `nano` to make and edit files from the command line. Other editors such as emacs and vim can be worthwhile if you are doing more substantial command line editing. 
+Recall some of our primary tools for navigating the command line: `cd`, `ls`, `pwd`, `mkdir`, and `nano`. You can use `cd ..` to move up a directory level and `cd ~/Documents` for folders starting at the user's home directory. You can use `ls -a` to view hidden files and `ls -la` for a long listing of all files. (Again the `l` argument is for long form and the `a` in both cases for all files, including those beginning with `.` indicating that they are hidden.) You can also make directories with the `mkdir` command. You saw how to use `nano` to make and edit files from the command line. Other editors such as emacs and vim can be worthwhile if you are doing more substantial command line editing. 
 
 ## Git Background
 
@@ -28,11 +25,11 @@ Remember that git was not only designed as a version control system, but a means
 
 ## Git Commands
 
-You've seen a decent amount of `git commands` including `git add`, `git commit`, `git branch`, `git checkout` and `git merge`. Also very important is to know how to access documentation so that you can both review and extend your knowledge. For example, to see a list of git commands in general, start with `git --help`. 
+You've seen a decent amount of git commands including `git add`, `git commit`, `git branch`, `git checkout`, and `git merge`. Also very important is to know how to access documentation so that you can both review and extend your knowledge. For example, to see a list of git commands in general, start with `git --help`. 
 
 <img src="images/git_help.png" width="700">
 
-You can then also review individual commands with 'git help <command>' such as `git help add` (Afterwards press `q` to quit the commands documentation.)
+You can also review individual commands with 'git help <command>' such as `git help add` (press `q` to quit the documentation.)
 
 <img src="images/git_help_add.png" width="1200">
 
@@ -52,4 +49,4 @@ At some point, you will also run into some trouble with git and have merge confl
 
 ## Summary
 
-Once again, preliminary tools such as the command line and git are foundational to managing projects and maintaining code. Similarly, knowing how to access further information quickly is also an indispensable soft skill. Be sure to continue to organize work, modularize, and use version control. Also, keep in mind PEP8 and be thoughtful of how you organize, comment and structure your code. All of these will make you a stronger programmer and data scientist.
+Once again, preliminary tools such as the command line and git are foundational to managing projects and maintaining code. Similarly, knowing how to access further information quickly is also an indispensable soft skill. Be sure to continue to organize work, modularize, and use version control. Also, keep PEP8 in mind and be thoughtful of how you organize, comment, and structure your code. All of these will make you a better programmer and Data Scientist.
