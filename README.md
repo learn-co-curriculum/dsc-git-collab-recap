@@ -9,10 +9,10 @@ After that, you did a data analysis project using word frequency! Nice work! To 
 
 ## Objectives
 
-* Review the `cd`, `ls`, `pwd`, `mkdir`, and `nano` commands 
-* Be able to retrieve git documentation 
-* Review `git add` command arguments 
-* Revieiw `git stash` 
+- Review the `cd`, `ls`, `pwd`, `mkdir`, and `nano` commands 
+- Be able to retrieve git documentation 
+- Review `git add` command arguments 
+- Revieiw `git stash` 
 
 
 ## Bash and the Command Line
