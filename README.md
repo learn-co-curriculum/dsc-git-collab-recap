@@ -1,4 +1,3 @@
-
 # Bash and Git - Recap
 
 ## Introduction
