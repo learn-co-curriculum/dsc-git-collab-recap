@@ -17,21 +17,21 @@ Remember that Git was not only designed as a version control system, but a means
 
 You've seen a decent amount of Git commands including `git add`, `git commit`, `git branch`, `git checkout`, and `git merge`. Also its important to know how to access documentation so that you can both review and extend your knowledge. For example, to see a list of git commands in general, start with `git --help`. 
 
-<img src="images/git_help.png" width="700">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/git_help.png" width="700">
 
 You can also review individual commands with 'git help <command>' such as `git help add` (press `q` to quit the documentation.)
 
-<img src="images/git_help_add.png" width="1200">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/git_help_add.png" width="1200">
 
 In the synopsis, you can see optional parameters such as in `git add --all` which you previously used before. 
 
 Similarly, for the commit documentation, take a look at `git help commit` (and subsequently use `q` to quit.)
 
-<img src="images/git_help_commit.png" width="1000">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/git_help_commit.png" width="1000">
 
 Here, you might notice additional arguments that you can begin to use, such as `a`, which you see listed in the synopsis.  Then, if you look under the options header, you will see a full description.
 
-<img src="images/git_help_commit_options.png" width="900">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/git_help_commit_options.png" width="900">
 
 So for example, you could combine this with the `m` option as `git commit -am "your commit message"`. (Indeed this is a useful shortcut; by doing this you can bypass the `git add` command in your workflow in updating files being tracked by Git.)
 
